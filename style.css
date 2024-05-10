@@ -1,0 +1,214 @@
+body{
+    background-color: pink;   
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.landing-page-centre{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 80px;
+}
+.sign-up{
+    border: 1px solid;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    width: 10%;
+    height: 70px;
+   
+}
+
+.search-buttontop{
+    border: 1px solid;
+    border-radius: 40px;
+    width: 15%;
+    height: 70px;}
+
+.search-button{
+    border: 1px solid;
+    border-radius: 40px;
+    width: 80%;
+    height: 70px;
+}
+.landing-page-image{
+    left: 70px;
+    height: 200px;
+    width: 150%;
+}
+.landing-page-footer{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 40px;
+}
+
+@media screen and (min-width: 280)and (max-width:750){
+    body{
+        background-color: pink;   
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .landing-page-centre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    h2{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .sign-up{
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        width: 30%;
+        height: 70px;
+       
+    }
+    .search-buttontop{
+        border: 1px solid;
+        border-radius: 40px;
+        width: 15%;
+        height: 70px;}
+
+    .search-button{
+        border: 1px solid;
+        width: 30%;
+        height: 70px;
+    }
+    .landing-page-image{
+        height: 70px;
+        width: 80px;
+    }
+    .landing-page-footer{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+    h3{
+        font-size: 10px;
+    }
+    .landing-page-text{
+        padding-left: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 751)and (max-width:1024){
+    .landing-page{
+        border: 1px solid;
+        border-radius: 50px;
+    
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .landing-page-centre{
+        display: flex;
+        justify-content: space-around;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .sign-up{
+        border: 1px solid;
+        border-radius: 40px;
+        background-color: black;
+        color: white;
+        width: 30%;
+        height: 70px;
+       
+    }
+    .search-button{
+        border: 1px solid;
+        width: 30%;
+        height: 70px;
+    }
+    .landing-page-image{
+        height: 100px;
+        width: 100px;
+    }
+    .landing-page-footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .landing-page-text{
+        padding-left: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1024)and (max-width:1200){
+    .landing-page{
+        border: 1px solid;
+        border-radius: 50px;
+    
+    }
+   
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .landing-page-centre{
+        display: flex;
+        justify-content: space-around;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .sign-up{
+        border: 1px solid;
+        border-radius: 40px;
+        background-color: black;
+        color: white;
+        width: 30%;
+        height: 70px;
+       
+    }
+    .search-button{
+        border: 1px solid;
+        border-radius: 40px;
+        width: 30%;
+        height: 70px;
+    }
+    .landing-page-image{
+        height: 100px;
+        width: 100px;
+    }
+    .landing-page-footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .landing-page-text{
+        padding-left: 20px;
+    }
+    
+}
